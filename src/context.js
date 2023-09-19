@@ -103,8 +103,6 @@ export const AppProvider = ({ children }) => {
     localStorage.setItem("tasks", JSON.stringify(state));
     const memberData = {
       data: {
-        // username: state.username,
-        // pass: state.pass,
         border: state.boards,
         coloumns: JSON.stringify(state.coloumns),
         text: JSON.stringify(state.text),

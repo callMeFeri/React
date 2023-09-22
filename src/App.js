@@ -10,7 +10,6 @@ import { SignUp } from "./SignUp";
 function App() {
   const { addBoard, state, showBoarder } = useGlobalContext();
 
-  console.log(id);
   if (state.logedIn) {
     return (
       <main>

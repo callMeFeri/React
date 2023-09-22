@@ -1,7 +1,7 @@
 import { Navbar } from "./Navbar";
 import { ComponentContainer } from "./ComponentContainer";
 import { Board } from "./Board";
-import { Route, Routes, Link, useParams } from "react-router-dom";
+import { Route, Routes, Link } from "react-router-dom";
 import { useGlobalContext } from "./context";
 import { LogIn } from "./Log";
 import "./index.css";

@@ -1,7 +1,5 @@
 import "./index.css";
 import { useGlobalContext } from "./context";
-import { Link } from "react-router-dom";
-import { SignUp } from "./SignUp";
 export const LogIn = () => {
   const { state, logInFunc, signingUp } = useGlobalContext();
   const fetchDataBase = async ({ uname, password }) => {
